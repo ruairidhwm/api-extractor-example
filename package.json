@@ -1,0 +1,13 @@
+{
+  "name": "api-extractor-example",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ruairidh Wynne-McHardy",
+    "url": "https://ruairidh.dev"
+  },
+  "license": "MIT",
+  "scripts": {
+    "api-report": "tsc -b tsconfig.apidocs.json && api-extractor run --local --verbose",
+    "api-docs": "api-documenter markdown -i temp -o docs"
+  }
+}
