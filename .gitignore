@@ -1,3 +1,4 @@
 .dist-types
 temp/**
 .DS_Store
+tsdoc-metadata.json
